@@ -31,6 +31,11 @@ public class Main {
         return new ArrayList<>(res.values());
     }
     public static void main(String[] args) {
-        System.out.println(groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
+//        System.out.println(groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
+        int i = 1;
+        int j = ++i;
+        System.out.println(j);
+
+
     }
 }
